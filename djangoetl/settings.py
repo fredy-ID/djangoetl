@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'djangoetl.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'postgres',
+        'NAME': 'django',
         'USER': 'fredd@django-etl-db',
         'PASSWORD': os.getenv("DB_PASSWORD"),
         'HOST': 'django-etl-db.postgres.database.azure.com',
