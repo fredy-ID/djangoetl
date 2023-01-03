@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'django',
         'USER': 'fredd@django-etl-db',
-        'PASSWORD': os.getenv("DB_PASSWORD"),
+        'PASSWORD': "az-900974",
         'HOST': 'django-etl-db.postgres.database.azure.com',
         'PORT': '5432',
         "OPTIONS": {"sslmode": "require"}
